@@ -1,3 +1,4 @@
+import NavBar from '@/components/NavBar'
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +13,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className='flex flex-col bg-[#1D2025] text-white h-auto'>
+      <NavBar />
+        <div>
+        {children}
+        </div>
+        </div>
+        </body>
     </html>
   )
 }
