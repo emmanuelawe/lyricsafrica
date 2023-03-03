@@ -6,10 +6,10 @@ const Banner = () => {
   return (
     <>
     {/* Mobile View */}
-    <div className='relative px-4 h-[50vh] md:h-[70vh]'>
+    <div className='relative px-4 h-[50vh] md:h-[70vh] '>
 
       <p className='absolute top-4 left-0 z-50 bg-[#2A95D9] font-bold pb-2
-      p-3 rounded-br-xl text-xl text-white py-2 shadow-lg'>
+      p-3 rounded-br-xl text-xl md:text-2xl text-white py-2 shadow-lg'>
         Featured Lyrics</p>
     <Image src={Cover} alt="Cover Image" fill
     sizes='100vw'
